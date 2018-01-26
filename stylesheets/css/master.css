@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: teal;
+}
+
+#dog-icon {
+  align-self: flex-start;
+}
+
+div {
+  padding: 10px;
+  color: white;
+}
+
+img {
+  padding: 15px 15px;
+}
+
+header {
+  background-image: "/images/park.jpg";
+}
+
+header, footer, figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+
+#icons {
+  justify-content: center;
+}
+
+button {
+  border-width: 3px;
+  border-style: solid;
+  border-color: teal;
+  margin: 15px 15px;
+}
