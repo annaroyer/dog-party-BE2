@@ -1,24 +1,44 @@
+
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links{
+  display: flex;
   justify-content: flex-end;
+}
+
+nav, footer {
   background-color: teal;
 }
 
-#dog-icon {
-  align-self: flex-start;
+.dog-icon {
+  height: 35px;
+  width: 35px;
 }
 
-div {
+div, p {
   padding: 10px;
   color: white;
 }
 
 img {
-  padding: 15px 15px;
+  border-radius: 50%;
+  margin: 15px 15px;
+}
+
+.dog-img {
+  height: 200px;
+  border-color: teal;
+  border-style: solid;
+  border-width: 3px;
 }
 
 header {
-  background-image: "/images/park.jpg";
+  background-image: url('../../images/park.jpg');
+  background-size: cover;
 }
 
 header, footer, figure {
